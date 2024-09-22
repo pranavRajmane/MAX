@@ -1,0 +1,52 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(34, 34, 32);
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Style for the input bar */
+  input[type="text"] {
+    width: 100%;               /* Set the width to fill the container */
+    height: 80px;              /* Double the input bar height (compared to 40px) */
+    font-size: 18px;           /* Larger font size for readability */
+    padding: 10px;             /* Padding for better user experience */
+    margin-bottom: 20px;       /* Space below the input bar */
+    box-sizing: border-box;    /* Ensures padding is included in height/width */
+    border: 2px solid rgb(43, 43, 42);    /* Border styling */
+    border-radius: 8px;        /* Rounded corners */
+    background-color: rgb(43, 43, 42);    /* White background for the input */
+  }
+
+
+  input
+  
+  
+  /* Style for the submit button */
+  button {
+    width: 150px;               /* Smaller width */
+    height: 40px;               /* Smaller height */
+    font-size: 14px;            /* Smaller font size */
+    background-color: rgb(142, 61, 31);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0;            /* Margin to add space */
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the output/result */
+  #output {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #a54848;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
