@@ -48,27 +48,3 @@ gmsh.fltk.run()
 gmsh.finalize()
 
 
-
-#def get_user_input():
- #   return input("Enter your CAD file processing instructions: ")
-
-#def process_with_llm(user_input):
- #   response = watson_x.analyze(text=user_input)
-  #  return response.result
-
-#def execute_gmsh_commands(llm_interpretation):
-    # Convert LLM interpretation to GMSH commands
-    # This is a simplified example - you'd need to implement more complex parsing
- #   if "create mesh" in llm_interpretation.lower():
-  #      gmsh.model.mesh.generate(3)  # Generate 3D mesh
-   # elif "refine mesh" in llm_interpretation.lower():
-    #    gmsh.model.mesh.refine()
-    # Add more conditions based on possible LLM outputs
-
-#def main():
- #   user_input = get_user_input()
-  #  llm_interpretation = process_with_llm(user_input)
-   # execute_gmsh_commands(llm_interpretation)
-    #gmsh.write("output.msh")
-    #gmsh.finalize()
-
